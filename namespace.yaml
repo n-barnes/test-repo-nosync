@@ -1,0 +1,8 @@
+##Creating a simple namespace for ArgoCD to deploy
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: argo-repo-nosync
+  labels:
+    name: argo-repo-nosync
